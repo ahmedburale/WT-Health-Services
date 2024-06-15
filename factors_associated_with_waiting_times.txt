@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      waiting_time_days   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.4841
+Date:                Fri, 14 Jun 2024   Prob (F-statistic):              0.747
+Time:                        19:30:23   Log-Likelihood:                -20661.
+No. Observations:                5000   AIC:                         4.133e+04
+Df Residuals:                    4995   BIC:                         4.136e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 59.4317      0.720     82.599      0.000      58.021      60.842
+age                   -0.0038      0.010     -0.367      0.714      -0.024       0.016
+gender_cat             0.1404      0.427      0.329      0.742      -0.697       0.977
+procedure_type_cat    -0.0241      0.259     -0.093      0.926      -0.532       0.484
+priority_level_cat     0.3429      0.261      1.313      0.189      -0.169       0.855
+==============================================================================
+Omnibus:                        4.480   Durbin-Watson:                   1.989
+Prob(Omnibus):                  0.106   Jarque-Bera (JB):                4.698
+Skew:                          -0.037   Prob(JB):                       0.0955
+Kurtosis:                       3.131   Cond. No.                         200.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
